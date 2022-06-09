@@ -21,7 +21,7 @@ const settings = {
     el: ".swiper-pagination",
     type: "bullets",
     clickable: true,
-  },
+  }
 };
 
 function SwiperV2({ data, renderSwiperSlide }) {
@@ -102,6 +102,7 @@ function SwiperV2({ data, renderSwiperSlide }) {
             slidesPerView={1}
             ref={swiperRef}
             {...settings}
+            rewind={true}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log("slide change")}
           >
@@ -137,6 +138,7 @@ function SwiperV2({ data, renderSwiperSlide }) {
         spaceBetween={20}
         slidesPerView={2}
         ref={swiperRef}
+        rewind={true}
         {...settings}
       >
         {data.map((quote, idx) => {
@@ -171,6 +173,7 @@ function SwiperV2({ data, renderSwiperSlide }) {
         slidesPerView={3}
         ref={swiperRef}
         {...settings}
+        rewind={true}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >

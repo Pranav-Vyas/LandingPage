@@ -4,7 +4,7 @@ import styles from './Navbar.module.css'
 function Navbar() {
   return (
     <div className={styles.wrapper}>
-        <img src="/images/pudleLogo.png" alt="" />
+        <img src="/images/puddleLogo.svg" alt="" />
     </div>
   )
 }

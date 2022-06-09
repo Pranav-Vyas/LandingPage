@@ -1,0 +1,55 @@
+.wrapper {
+  width: 50%;
+  padding-top: 130px;
+}
+
+.heart {
+  height: 74.9143263982797px;
+  width: 77.10795271042078px;
+}
+
+.heading {
+  padding: 0 49px;
+}
+
+.headingText {
+  margin: 0;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 82px;
+  width: 592px;
+  /* or 128% */
+
+  letter-spacing: -0.01em;
+
+  /* Gray / 1 */
+
+  color: #313131;
+}
+
+.subHeading {
+    padding: 40px 49px;
+}
+
+.text {
+  width: 293px;
+  height: 36px;
+  left: 167px;
+  top: 466px;
+  margin: 0;
+
+  /* Heading 3/Semi bold */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  /* Blue / 2 */
+
+  color: #007fa3;
+}

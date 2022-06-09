@@ -1,0 +1,31 @@
+.pagination {
+    position: relative;
+    left: 0;
+    right: 0;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: transparent;
+  }
+  
+  .dot {
+    width: 8px;
+    height: 8px;
+  
+    border-radius: 4px;
+  
+    margin: 3px 10px;
+    cursor: pointer;
+  }
+  
+  .inactive {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .active {
+    background-color: #5a4b95;
+  }
+  

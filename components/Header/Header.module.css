@@ -1,0 +1,6 @@
+.wrapper {
+    padding-left: 117px;
+    padding-right: 92px;
+    display: flex;
+    flex-direction: row;
+}

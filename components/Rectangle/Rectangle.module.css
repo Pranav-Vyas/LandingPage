@@ -1,0 +1,17 @@
+.wrapper {
+  background: #ebfaff;
+  border-radius: 16px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: 160px;
+  height: 160px;
+  margin-bottom: 24px;
+  margin-left: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image{
+    height: 80px;
+    width: 96px;
+}

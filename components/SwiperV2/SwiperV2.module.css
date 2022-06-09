@@ -1,0 +1,36 @@
+
+.container {
+  height: 800px;
+  background-color: #FAFAFA;
+}
+
+.wrapper {
+    /* height: 600px; */
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.slide {
+    width: 424px;
+  height: 413px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    padding: 20px;
+  }
+}

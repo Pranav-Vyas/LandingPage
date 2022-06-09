@@ -1,0 +1,12 @@
+.wrapper {
+    width: 50%;
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

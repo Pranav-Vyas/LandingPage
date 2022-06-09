@@ -15,22 +15,25 @@
 
 .slide {
     width: 424px;
-  height: 413px;
+  /* height: 413px; */
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 
-
+/* 
 @media screen and (max-width: 768px) {
   .wrapper {
     padding-left: 30px;
     padding-right: 30px;
   }
-}
+} */
+
+/*
 @media screen and (max-width: 1024px) {
   .wrapper {
     padding: 20px;
   }
-}
+} */
